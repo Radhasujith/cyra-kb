@@ -1,0 +1,380 @@
+[
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": "FRU No.",
+    "Unnamed: 1": "Description",
+    "Unnamed: 2": "Order Number",
+    "Unnamed: 3": "Classification",
+    "Unnamed: 4": "Related Complaints",
+    "Unnamed: 5": "Disassembly Section",
+    "Unnamed: 6": "Notes"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 1,
+    "Unnamed: 1": "Probe Board Assembly",
+    "Unnamed: 2": "115-033365-01",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "PRB-001/002/003, IMG-001",
+    "Unnamed: 5": "9.3.8",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 2,
+    "Unnamed: 1": "PC Carrier Board",
+    "Unnamed: 2": "115-033343-01",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "PWR-002, IO-001/002/004/006, DSP-003",
+    "Unnamed: 5": "9.3.14",
+    "Unnamed: 6": "Requires OS upgrade to V5.0"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 3,
+    "Unnamed: 1": "PC Module Assembly",
+    "Unnamed: 2": "115-037338-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "PWR-003, STR-001/002, DSP-003",
+    "Unnamed: 5": "9.3.14",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 4,
+    "Unnamed: 1": "Engine Board",
+    "Unnamed: 2": "115-033344-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "IMG-001/002, DSP-003",
+    "Unnamed: 5": "9.3.15",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 5,
+    "Unnamed: 1": "TR64 Board",
+    "Unnamed: 2": "115-033345-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "IMG-001/002, PHV-004/005",
+    "Unnamed: 5": "9.3.15",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 6,
+    "Unnamed: 1": "Motherboard",
+    "Unnamed: 2": "115-025763-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "Board interconnect failures",
+    "Unnamed: 5": "9.3.17",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 7,
+    "Unnamed: 1": "IO Assembly",
+    "Unnamed: 2": "115-025764-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "IO-005/006",
+    "Unnamed: 5": "9.3.10",
+    "Unnamed: 6": "Must match Wi-Fi Module Kit 115-039264-00"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 8,
+    "Unnamed: 1": "IO Board Assembly (FRU/EWM-W163M201E)",
+    "Unnamed: 2": "115-051521-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "IO-005/006",
+    "Unnamed: 5": "9.3.6",
+    "Unnamed: 6": "Must match Wi-Fi Module Kit 115-051210-00"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 9,
+    "Unnamed: 1": "Inlet Fan",
+    "Unnamed: 2": "115-042896-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "FAN-002, TMP-001 to 006",
+    "Unnamed: 5": "9.3.16",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 10,
+    "Unnamed: 1": "Outlet Fan",
+    "Unnamed: 2": "115-042898-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "FAN-001, TMP-001 to 006",
+    "Unnamed: 5": "9.3.9",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 11,
+    "Unnamed: 1": "Wi-Fi Module Kit",
+    "Unnamed: 2": "115-039264-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "IO-006",
+    "Unnamed: 5": "10.2.6",
+    "Unnamed: 6": "OS ≥V2.11 (2015-12-31+), Doppler ≥V01.02.00 (Rev4592). Match with IO 115-025764-00"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 12,
+    "Unnamed: 1": "Wi-Fi Module Kit (EWM-W163M201E)",
+    "Unnamed: 2": "115-051210-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "IO-006",
+    "Unnamed: 5": "10.2.6",
+    "Unnamed: 6": "OS ≥V4.0. Match with IO Board 115-051521-00"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 13,
+    "Unnamed: 1": "CPU Fan (FAN 12V 7.5CFM 34dB 70×67×12mm)",
+    "Unnamed: 2": "024-000518-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "FAN-003, TMP-006",
+    "Unnamed: 5": "9.3.19",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-60/CE/FRU",
+    "Unnamed: 2": "115-033332-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-60 Pro/CE/FRU",
+    "Unnamed: 2": "115-033333-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-60 Exp/CE/FRU",
+    "Unnamed: 2": "115-033334-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-60S/CE/FRU",
+    "Unnamed: 2": "115-033335-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-55/FDA/FRU",
+    "Unnamed: 2": "115-037257-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-60/FDA/FRU",
+    "Unnamed: 2": "115-037258-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-60 Exp/FDA/FRU",
+    "Unnamed: 2": "115-037259-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 14,
+    "Unnamed: 1": "Hard Disk — DC-60S/FDA/FRU",
+    "Unnamed: 2": "115-037260-00",
+    "Unnamed: 3": "Main Unit",
+    "Unnamed: 4": "STR-003/004/005, SW-001",
+    "Unnamed: 5": "9.3.11",
+    "Unnamed: 6": "Includes bracket; connect cable NOT included"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 15,
+    "Unnamed: 1": "Touchscreen Assembly (DC-60)",
+    "Unnamed: 2": "115-033327-00",
+    "Unnamed: 3": "Monitor",
+    "Unnamed: 4": "DSP-004",
+    "Unnamed: 5": "9.3.3.8",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 16,
+    "Unnamed: 1": "Touchscreen Assembly (DC-60 Pro)",
+    "Unnamed: 2": "115-033328-00",
+    "Unnamed: 3": "Monitor",
+    "Unnamed: 4": "DSP-004",
+    "Unnamed: 5": "9.3.3.8",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 17,
+    "Unnamed: 1": "Touchscreen Assembly (DC-60 Exp)",
+    "Unnamed: 2": "115-033329-00",
+    "Unnamed: 3": "Monitor",
+    "Unnamed: 4": "DSP-004",
+    "Unnamed: 5": "9.3.3.8",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 18,
+    "Unnamed: 1": "Touchscreen Assembly (DC-60S)",
+    "Unnamed: 2": "115-033330-00",
+    "Unnamed: 3": "Monitor",
+    "Unnamed: 4": "DSP-004",
+    "Unnamed: 5": "9.3.3.8",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 19,
+    "Unnamed: 1": "17\" Monitor Assembly",
+    "Unnamed: 2": "115-033331-00",
+    "Unnamed: 3": "Monitor",
+    "Unnamed: 4": "DSP-001/002/003",
+    "Unnamed: 5": "9.3.3.1",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 20,
+    "Unnamed: 1": "19\" Monitor Assembly (FRU/LG)",
+    "Unnamed: 2": "115-044283-00",
+    "Unnamed: 3": "Monitor",
+    "Unnamed: 4": "DSP-001/002/003",
+    "Unnamed: 5": "9.3.3.2",
+    "Unnamed: 6": "Includes cover and cable cover"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 21,
+    "Unnamed: 1": "Keyboard Upper Cover Assembly",
+    "Unnamed: 2": "115-033339-00",
+    "Unnamed: 3": "Control Panel",
+    "Unnamed: 4": "CP-001/002",
+    "Unnamed: 5": "9.3.3",
+    "Unnamed: 6": "Includes upper board of keyboard cover and button"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 22,
+    "Unnamed: 1": "Keyboard Upper Cover Assembly (V2)",
+    "Unnamed: 2": "115-033339-02",
+    "Unnamed: 3": "Control Panel",
+    "Unnamed: 4": "CP-001/002",
+    "Unnamed: 5": "9.3.3",
+    "Unnamed: 6": "Order 115-033339-00 first; use this when V1 exhausted. Upgrade software to V01.71.02"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 23,
+    "Unnamed: 1": "TGC Board",
+    "Unnamed: 2": "801-2119-00029-00",
+    "Unnamed: 3": "Control Panel",
+    "Unnamed: 4": "CP-006/007",
+    "Unnamed: 5": "9.3.3.3",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 24,
+    "Unnamed: 1": "Encoder Assembly",
+    "Unnamed: 2": "115-041020-00",
+    "Unnamed: 3": "Control Panel",
+    "Unnamed: 4": "CP-005",
+    "Unnamed: 5": "9.3.3.1",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 25,
+    "Unnamed: 1": "2\" Trackball",
+    "Unnamed: 2": "023-001157-00",
+    "Unnamed: 3": "Control Panel",
+    "Unnamed: 4": "CP-004",
+    "Unnamed: 5": "9.3.3.2",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 26,
+    "Unnamed: 1": "Keyboard Assembly",
+    "Unnamed: 2": "115-025772-00",
+    "Unnamed: 3": "Control Panel",
+    "Unnamed: 4": "CP-001/002/003",
+    "Unnamed: 5": "9.3.7",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 27,
+    "Unnamed: 1": "Power Box (FRU/NEW POWER)",
+    "Unnamed: 2": "115-047000-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "PWR-001, PHV-001 to 007",
+    "Unnamed: 5": "9.3.12",
+    "Unnamed: 6": "Includes power input assembly, AC-DC board, control switch board, fan, and cable"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 29,
+    "Unnamed: 1": "Power Input Assembly",
+    "Unnamed: 2": "115-043057-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "PWR-001",
+    "Unnamed: 5": "9.3.20",
+    "Unnamed: 6": "Select proper label per machine region"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 30,
+    "Unnamed: 1": "2123 Control Switch Board (FRU/NEW POWER)",
+    "Unnamed: 2": "115-043056-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "PWR-001",
+    "Unnamed: 5": "9.3.21",
+    "Unnamed: 6": "Only for machines with new power assembly"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 31,
+    "Unnamed: 1": "2123 AC-DC Board (FRU/NEW POWER)",
+    "Unnamed: 2": "115-042951-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "PWR-001",
+    "Unnamed: 5": "9.3.22",
+    "Unnamed: 6": "Only for machines with new power assembly"
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 32,
+    "Unnamed: 1": "Base Power Box Fan Kit (FRU/NEW POWER)",
+    "Unnamed: 2": "115-042950-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "FAN-003",
+    "Unnamed: 5": "9.3.23",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 33,
+    "Unnamed: 1": "DC-DC Board",
+    "Unnamed: 2": "115-025761-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "PWR-004, IMG-001, TMP-001",
+    "Unnamed: 5": "9.3.13",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 34,
+    "Unnamed: 1": "Power Connecting Board",
+    "Unnamed: 2": "115-033350-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "Power interconnect",
+    "Unnamed: 5": "—",
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 6 — Complete FRU Reference Table  |  35 Field Replaceable Units": 35,
+    "Unnamed: 1": "Battery",
+    "Unnamed: 2": "115-081631-00",
+    "Unnamed: 3": "Power Supply",
+    "Unnamed: 4": "BAT-001/002/003",
+    "Unnamed: 5": "—",
+    "Unnamed: 6": null
+  }
+]

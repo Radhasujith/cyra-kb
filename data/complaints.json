@@ -1,0 +1,642 @@
+[
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "Complaint ID",
+    "Unnamed: 1": "Main Complaint",
+    "Unnamed: 2": "Subcategory",
+    "Unnamed: 3": "Related Module",
+    "Unnamed: 4": "Severity",
+    "Unnamed: 5": "Criticality",
+    "Unnamed: 6": "Knowledge Source",
+    "Unnamed: 7": "Manual Reference"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-001",
+    "Unnamed: 1": "System cannot power on — AC indicator OFF",
+    "Unnamed: 2": "Power / AC Input",
+    "Unnamed: 3": "AC-DC Module, AC Connection Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.1.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-002",
+    "Unnamed: 1": "System cannot power on — AC ON, power button no response",
+    "Unnamed: 2": "Power / PC Carrier",
+    "Unnamed: 3": "PC Carrier Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.1.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-003",
+    "Unnamed: 1": "System cannot power on — power button green blink, no rails",
+    "Unnamed: 2": "Power / PC Module",
+    "Unnamed: 3": "PC Module",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.1.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-004",
+    "Unnamed: 1": "System cannot power on — power button yellow blink",
+    "Unnamed: 2": "Power / DC-DC",
+    "Unnamed: 3": "DC-DC Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.1.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-005",
+    "Unnamed: 1": "Button battery voltage low / run out",
+    "Unnamed: 2": "Power / Button Battery",
+    "Unnamed: 3": "PC Carrier Board (ADT7462)",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.2"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-006",
+    "Unnamed: 1": "Abnormal voltage on back-end rails (VDD18/VDD25/VDD12/VCC)",
+    "Unnamed: 2": "Power / Back-End Rails",
+    "Unnamed: 3": "PC Carrier Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.2"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-007",
+    "Unnamed: 1": "Abnormal voltage on DC-DC rails (D5V/D3V3/A5V7/A6V/A2V1)",
+    "Unnamed: 2": "Power / Front-End Rails",
+    "Unnamed: 3": "DC-DC Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.2"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PWR-008",
+    "Unnamed: 1": "Abnormal voltage on 12V_ACDC rail",
+    "Unnamed: 2": "Power / AC-DC",
+    "Unnamed: 3": "DC-DC Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.2"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "BAT-001",
+    "Unnamed: 1": "Battery I2C communication error — battery capacity unreadable",
+    "Unnamed: 2": "Battery",
+    "Unnamed: 3": "Battery, IO Rear Board",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.1"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "BAT-002",
+    "Unnamed: 1": "Battery I2C error — Shutdown State triggered",
+    "Unnamed: 2": "Battery",
+    "Unnamed: 3": "Battery, Battery Mgmt Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.1"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "BAT-003",
+    "Unnamed: 1": "Battery discharge/charge not functioning",
+    "Unnamed: 2": "Battery",
+    "Unnamed: 3": "Battery",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.1"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "TMP-001",
+    "Unnamed: 1": "Temperature alarm — DC-DC board (T_DCDC)",
+    "Unnamed: 2": "Thermal",
+    "Unnamed: 3": "DC-DC Board, Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "TMP-002",
+    "Unnamed: 1": "Temperature alarm — PC carrier board positions (T_APC/T_BPC/T_CPC)",
+    "Unnamed: 2": "Thermal",
+    "Unnamed: 3": "PC Carrier Board, Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "TMP-003",
+    "Unnamed: 1": "Temperature alarm — DSP FPGA core (T_DSP_FPGA)",
+    "Unnamed: 2": "Thermal",
+    "Unnamed: 3": "Engine Board, Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "TMP-004",
+    "Unnamed: 1": "Temperature alarm — TR FPGA core (T_TR_FPGA)",
+    "Unnamed: 2": "Thermal",
+    "Unnamed: 3": "TR Board, Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "TMP-005",
+    "Unnamed: 1": "Temperature alarm — Front power supply board (T_FDCDC1/T_FDCDC2)",
+    "Unnamed: 2": "Thermal",
+    "Unnamed: 3": "DC-DC Board, Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "TMP-006",
+    "Unnamed: 1": "CPU thermal sensor alarm (>90°C limit)",
+    "Unnamed: 2": "Thermal / CPU",
+    "Unnamed: 3": "PC Module, Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "FAN-001",
+    "Unnamed: 1": "Fan speed alarm — top fans (FS_TOP_TACH0/1/2)",
+    "Unnamed: 2": "Fan / Thermal",
+    "Unnamed: 3": "Outlet Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.4"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "FAN-002",
+    "Unnamed: 1": "Fan speed alarm — bottom fans (FS_DOWN_TACH0/1/2)",
+    "Unnamed: 2": "Fan / Thermal",
+    "Unnamed: 3": "Inlet Fans",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.4"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "FAN-003",
+    "Unnamed: 1": "Fan speed alarm — PC fan (FS_PC)",
+    "Unnamed: 2": "Fan / Thermal",
+    "Unnamed: 3": "CPU Fan",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.4"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PHV-001",
+    "Unnamed: 1": "PHV hardware protection — HV_PRN_N (±100V)",
+    "Unnamed: 2": "High Voltage",
+    "Unnamed: 3": "PHV Board, TR Board",
+    "Unnamed: 4": "Critical",
+    "Unnamed: 5": "Critical",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.5"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PHV-002",
+    "Unnamed: 1": "PHV hardware protection — OVP (Over Voltage Protection)",
+    "Unnamed: 2": "High Voltage",
+    "Unnamed: 3": "PHV Board",
+    "Unnamed: 4": "Critical",
+    "Unnamed: 5": "Critical",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.5"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PHV-003",
+    "Unnamed: 1": "PHV hardware protection — OCP (Over Current Protection)",
+    "Unnamed: 2": "High Voltage",
+    "Unnamed: 3": "PHV Board",
+    "Unnamed: 4": "Critical",
+    "Unnamed: 5": "Critical",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.5"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PHV-004",
+    "Unnamed: 1": "PHV Mode voltage error (PHV-1P/1N/2P/2N out of range)",
+    "Unnamed: 2": "High Voltage",
+    "Unnamed: 3": "PHV Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Critical",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.5"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PHV-005",
+    "Unnamed: 1": "CW Mode voltage error (CW-1P/1N, ±100V out of range)",
+    "Unnamed: 2": "High Voltage",
+    "Unnamed: 3": "PHV Board, CW Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Critical",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.5"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PHV-006",
+    "Unnamed: 1": "CW-Multiplex Mode voltage error",
+    "Unnamed: 2": "High Voltage",
+    "Unnamed: 3": "PHV Board, CW Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Critical",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.5"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PHV-007",
+    "Unnamed: 1": "PHV/CW/CW-Multiplex mode supply current error",
+    "Unnamed: 2": "High Voltage / Current",
+    "Unnamed: 3": "PHV Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Critical",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.5"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IMG-001",
+    "Unnamed: 1": "No echo in ultrasound image — probe recognized, no return",
+    "Unnamed: 2": "Image Quality",
+    "Unnamed: 3": "TR64 Board, DC-DC Board, Probe Board, PHV Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IMG-002",
+    "Unnamed: 1": "Dark strips / line dropout on B image",
+    "Unnamed: 2": "Image Quality",
+    "Unnamed: 3": "Probe, TR64 Board, Probe Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IMG-003",
+    "Unnamed: 1": "Noise / interference on B image",
+    "Unnamed: 2": "Image Quality",
+    "Unnamed: 3": "Probe, External EMI, Common-mode interference",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.3.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PRB-001",
+    "Unnamed: 1": "Single probe not recognized on any socket",
+    "Unnamed: 2": "Probe",
+    "Unnamed: 3": "Probe (hardware)",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.4.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PRB-002",
+    "Unnamed: 1": "Probe not recognized on one specific socket",
+    "Unnamed: 2": "Probe",
+    "Unnamed: 3": "Probe Board Assembly",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.4.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "PRB-003",
+    "Unnamed: 1": "All probes fail on all sockets",
+    "Unnamed: 2": "Probe / Board",
+    "Unnamed: 3": "Probe Board Assembly",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.4.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "STR-001",
+    "Unnamed: 1": "System cannot start — blank screen, no BIOS",
+    "Unnamed: 2": "Startup",
+    "Unnamed: 3": "PC Module",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.2.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "STR-002",
+    "Unnamed: 1": "System cannot start — BIOS appears then stops",
+    "Unnamed: 2": "Startup",
+    "Unnamed: 3": "PC Module",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.2.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "STR-003",
+    "Unnamed: 1": "OPERATING SYSTEM NOT FOUND",
+    "Unnamed: 2": "Startup / Storage",
+    "Unnamed: 3": "HDD, OS partition",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.2.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "STR-004",
+    "Unnamed: 1": "BIOS appears then goes blank",
+    "Unnamed: 2": "Startup / Storage",
+    "Unnamed: 3": "HDD, system directory",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.2.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "STR-005",
+    "Unnamed: 1": "Doppler start-up graphics appears but does not last",
+    "Unnamed: 2": "Startup / Software",
+    "Unnamed: 3": "HDD, System Software",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.2.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IO-001",
+    "Unnamed: 1": "No video printer output on Print key press",
+    "Unnamed: 2": "IO / USB",
+    "Unnamed: 3": "PC Carrier Board, USB Connection",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.5.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IO-002",
+    "Unnamed: 1": "Both speakers mute — Audio Test FAIL",
+    "Unnamed: 2": "IO / Audio",
+    "Unnamed: 3": "PC Carrier Board",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.5.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IO-003",
+    "Unnamed: 1": "Single speaker mute — Audio Test FAIL",
+    "Unnamed: 2": "IO / Audio",
+    "Unnamed: 3": "Speaker (hardware)",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.5.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IO-004",
+    "Unnamed: 1": "Microphone interface failure — Mic Test FAIL",
+    "Unnamed: 2": "IO / Audio",
+    "Unnamed: 3": "PC Carrier Board",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.5.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IO-005",
+    "Unnamed: 1": "Network disconnected or abnormal",
+    "Unnamed: 2": "Network",
+    "Unnamed: 3": "IO Board, PC Module",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.5.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "IO-006",
+    "Unnamed: 1": "Wi-Fi not recognized",
+    "Unnamed: 2": "Network / Wi-Fi",
+    "Unnamed: 3": "PC Carrier Board, Wi-Fi Board",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.5.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "CP-001",
+    "Unnamed: 1": "Buzzer alarming continuously",
+    "Unnamed: 2": "Control Panel",
+    "Unnamed: 3": "Control Panel (key physically blocked)",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.6.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "CP-002",
+    "Unnamed: 1": "Some / specific key failure",
+    "Unnamed: 2": "Control Panel",
+    "Unnamed: 3": "Keyboard PCBA, Silicon Keys",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.6.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "CP-003",
+    "Unnamed: 1": "Small keyboard key failure",
+    "Unnamed: 2": "Control Panel",
+    "Unnamed: 3": "Small Keyboard Assembly",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.6.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "CP-004",
+    "Unnamed: 1": "Trackball failure or abnormal movement",
+    "Unnamed: 2": "Control Panel",
+    "Unnamed: 3": "Trackball (dirt/wear/preset)",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.6.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "CP-005",
+    "Unnamed: 1": "Single encoder not responding",
+    "Unnamed: 2": "Control Panel",
+    "Unnamed: 3": "Encoder Board",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.6.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "CP-006",
+    "Unnamed: 1": "Single TGC button failure",
+    "Unnamed: 2": "Control Panel",
+    "Unnamed: 3": "TGC Board",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.6.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "CP-007",
+    "Unnamed: 1": "All TGC buttons not working",
+    "Unnamed: 2": "Control Panel",
+    "Unnamed: 3": "Control Panel Assembly",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.6.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "DSP-001",
+    "Unnamed: 1": "LCD blank — yellow indicator blinks, DVI lock indicator ON",
+    "Unnamed: 2": "Display",
+    "Unnamed: 3": "Primary Display Assembly",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.7.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "DSP-002",
+    "Unnamed: 1": "LCD blank — orange indicator / display power/connection error",
+    "Unnamed: 2": "Display",
+    "Unnamed: 3": "Primary Display Assembly",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.7.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "DSP-003",
+    "Unnamed: 1": "'No Signal' on LCD — DVI lock indicator OFF",
+    "Unnamed: 2": "Display",
+    "Unnamed: 3": "PC Carrier Board, PC Module",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.7.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "DSP-004",
+    "Unnamed: 1": "Secondary 10.4\" display blank",
+    "Unnamed: 2": "Display",
+    "Unnamed: 3": "10.4\" Display Assembly, Power cord",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.7.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "ECG-001",
+    "Unnamed: 1": "Cannot open ECG functions in software",
+    "Unnamed: 2": "ECG",
+    "Unnamed: 3": "ECG Module, Engine Board serial port",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "Medium",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.8.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "ECG-002",
+    "Unnamed: 1": "ECG waveform flat line or abnormal shape",
+    "Unnamed: 2": "ECG",
+    "Unnamed: 3": "ECG Lead, ECG Module",
+    "Unnamed: 4": "Medium",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 13.8.3"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "GEL-001",
+    "Unnamed: 1": "Gel warmer green indicator OFF",
+    "Unnamed: 2": "Gel Warmer",
+    "Unnamed: 3": "Gel Warmer (internal component damage)",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.6"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "GEL-002",
+    "Unnamed: 1": "Gel warmer orange blink 0.5 Hz",
+    "Unnamed: 2": "Gel Warmer",
+    "Unnamed: 3": "Gel Warmer (internal heating failure)",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.6"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "GEL-003",
+    "Unnamed: 1": "Gel warmer orange blink 2 Hz",
+    "Unnamed: 2": "Gel Warmer",
+    "Unnamed: 3": "Gel Warmer (overheating protection)",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.6"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "GEL-004",
+    "Unnamed: 1": "Green indicator ON but warmer not heating",
+    "Unnamed: 2": "Gel Warmer",
+    "Unnamed: 3": "Gel Warmer (internal electrical connection)",
+    "Unnamed: 4": "Low",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.6"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "SW-001",
+    "Unnamed: 1": "SystemConfiguration.ini file open failure",
+    "Unnamed: 2": "Software / HDD",
+    "Unnamed: 3": "HDD, System Software",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.7"
+  },
+  {
+    "PASS 2 — Complaint Taxonomy  |  53 Standardized Complaint IDs": "SW-002",
+    "Unnamed: 1": "ADT7462 initialization error (PC Board A/B or DC-DC Board)",
+    "Unnamed: 2": "Software / Hardware",
+    "Unnamed: 3": "PC Carrier Board, DC-DC Board",
+    "Unnamed: 4": "High",
+    "Unnamed: 5": "High",
+    "Unnamed: 6": "✅ Verified Manual",
+    "Unnamed: 7": "Ch. 11.3.7"
+  }
+]

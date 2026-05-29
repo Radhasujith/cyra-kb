@@ -1,0 +1,227 @@
+[
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Risk ID",
+    "Unnamed: 1": "Hazard",
+    "Unnamed: 2": "Severity",
+    "Unnamed: 3": "Related Procedure",
+    "Unnamed: 4": "Mitigation",
+    "Unnamed: 5": "Escalation Required",
+    "Unnamed: 6": "Source"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-001",
+    "Unnamed: 1": "🔴 Electric shock from mains — cleaning while powered ON",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "PROC-005, any cleaning",
+    "Unnamed: 4": "Power OFF and disconnect AC before ANY cleaning. Manual warning: 'If you clean the system while the power is On, it may result in electric shock.'",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Ch. 12.2.1.2"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-002",
+    "Unnamed: 1": "🔴 PHV board residual high voltage after power-down",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "PROC-003, any front-end access",
+    "Unnamed: 4": "Fully shut down; cut AC power; allow capacitor discharge before handling TR/Engine boards. Board can retain ±100V after power-off (⚠️ AI INFERRED — specific wait time not documented).",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Ch. 11.3.5"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-003",
+    "Unnamed: 1": "🔴 Earth resistance failure — patient safety risk",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "PROC-006 Test 4",
+    "Unnamed: 4": "If R > 0.2Ω: STOP ALL TESTS; label device DEFECTIVE; remove from service. Check protective earth terminal and equipotential connections.",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Appendix A, Test 4"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-004",
+    "Unnamed: 1": "🔴 Earth leakage exceeds limit — patient safety risk",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "PROC-006 Test 5",
+    "Unnamed: 4": "Check Y capacitor shorts on power unit; check power unit; check wall outlet grounding. If fails on new unit: Safety Failure Report required; remove from operation.",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Appendix A, Test 5"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-005",
+    "Unnamed: 1": "🔴 Patient leakage current exceeds limit",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "PROC-006 Test 6",
+    "Unnamed: 4": "Check applied parts (probes); check ECG/PCG module; check power unit; check wiring. Remove from service if uncorrectable.",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Appendix A, Test 6"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-006",
+    "Unnamed: 1": "🔴 Mains-on-applied-part leakage exceeds limit",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "PROC-006 Test 7",
+    "Unnamed: 4": "Same as SAF-005. High voltage PHYSICALLY PRESENT at applied part terminals during test — 2-beep-per-second warning signal active.",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Appendix A, Test 7"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-007",
+    "Unnamed: 1": "🔴 Patient auxiliary current exceeds limit",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "PROC-006 Test 8",
+    "Unnamed: 4": "Check AC cable; check enclosure; check wiring; test wall outlet grounding.",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Appendix A, Test 8"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-008",
+    "Unnamed: 1": "ESD damage to FPGA / PCB during board handling",
+    "Unnamed: 2": "High",
+    "Unnamed: 3": "PROC-002, PROC-003, all board work",
+    "Unnamed: 4": "Wear anti-electrostatic gloves for ALL board-level work. Use ESD mat.",
+    "Unnamed: 5": "No",
+    "Unnamed: 6": "Ch. 9.2.1"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-009",
+    "Unnamed: 1": "Mechanical injury — monitor falling during disassembly",
+    "Unnamed: 2": "Medium",
+    "Unnamed: 3": "Monitor disassembly procedures",
+    "Unnamed: 4": "Metal part inserted in plastic hole — DO NOT force removal. Follow disassembly steps precisely.",
+    "Unnamed: 5": "No",
+    "Unnamed: 6": "Ch. 9.3.1"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-010",
+    "Unnamed: 1": "Fire / EMI from unapproved device placement or environment",
+    "Unnamed: 2": "Medium",
+    "Unnamed: 3": "System Installation",
+    "Unnamed: 4": "Do NOT install near heat generators, high humidity, or flammable gases. No mobile phones, radio transceivers, or wireless devices in scan room.",
+    "Unnamed: 5": "No",
+    "Unnamed: 6": "Ch. 3.1.1, 3.1.2"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-011",
+    "Unnamed: 1": "Thermal damage — overheating from unresolved fan failure",
+    "Unnamed: 2": "High",
+    "Unnamed: 3": "Fan maintenance",
+    "Unnamed: 4": "Respond to ALL fan alarms promptly. System initiates countdown shutdown on temperature alarm. Check fan log: D:\\DC70\\Log\\Perilog",
+    "Unnamed: 5": "Yes (if unresolved)",
+    "Unnamed: 6": "Ch. 11.3.3, 11.3.4"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-012",
+    "Unnamed: 1": "🔴 System on same circuit as life-support devices",
+    "Unnamed: 2": "Critical",
+    "Unnamed: 3": "System Installation",
+    "Unnamed: 4": "MANUAL WARNING: 'DO NOT connect this system to outlets with the same fuses that control the current of devices such as life-support systems.'",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Ch. 3.1.1.2"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-013",
+    "Unnamed: 1": "Grounding failure — improper electrical installation",
+    "Unnamed: 2": "High",
+    "Unnamed: 3": "System Installation",
+    "Unnamed: 4": "Three-wire power cable required; protective earth must be connected. Verify outlet grounding before installation.",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Ch. 3.1.1.2"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "SAF-014",
+    "Unnamed: 1": "Unauthorized personnel performing disassembly",
+    "Unnamed: 2": "High",
+    "Unnamed: 3": "All disassembly procedures",
+    "Unnamed: 4": "Manual: 'The disassembly should be performed by professionals from Mindray or the staff who are qualified for the maintenance after the training.'",
+    "Unnamed: 5": "Yes",
+    "Unnamed: 6": "Ch. 9.2.2"
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "ELECTRICAL SAFETY LIMITS (IEC 60601-1 / UL 60601-1)",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Test",
+    "Unnamed: 1": "Standard",
+    "Unnamed: 2": "Normal Condition Limit",
+    "Unnamed: 3": "Single Fault Condition Limit",
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Earth Resistance",
+    "Unnamed: 1": "All regions",
+    "Unnamed: 2": "Max 0.2 Ω",
+    "Unnamed: 3": "—",
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Earth Leakage",
+    "Unnamed: 1": "UL 60601-1 (USA)",
+    "Unnamed: 2": "300 μA",
+    "Unnamed: 3": "1000 μA",
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Earth Leakage",
+    "Unnamed: 1": "IEC 60601-1 (Other regions)",
+    "Unnamed: 2": "500 μA",
+    "Unnamed: 3": "1000 μA",
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Patient Leakage (BF type)",
+    "Unnamed: 1": "All regions",
+    "Unnamed: 2": "100 μA",
+    "Unnamed: 3": "500 μA",
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Mains on Applied Part (BF type)",
+    "Unnamed: 1": "All regions",
+    "Unnamed: 2": "—",
+    "Unnamed: 3": "5000 μA",
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "PASS 5 — Safety & Escalation Registry  |  IEC 60601-1 / UL 60601-1": "Patient Auxiliary Current (BF type)",
+    "Unnamed: 1": "All regions",
+    "Unnamed: 2": "100 μA",
+    "Unnamed: 3": "500 μA",
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  }
+]
